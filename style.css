@@ -1,0 +1,620 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+article, footer, header, nav, section {
+  display: block;
+}
+ol, ul {
+	list-style-type: none;
+	list-style-image: none;
+}
+a {
+	
+	text-decoration: none;
+}
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin-bottom: 120px;
+}
+div {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.container {
+  margin: 0 auto;
+  width: 945px;
+}
+.mission_container, 
+.about_container, 
+.team_container,
+.footer_container,
+.faq_container {
+    width: 100%;
+}
+p {
+    font-family: "MusseoSans 500", sans-serif;
+    font-size: 20px;
+}
+
+
+/* --- Header ----*/
+
+.logo {
+	display: block;
+	padding-top: 28px;
+	float: left;
+}
+.header {
+	background-color: #f7fdfe;
+    height: 80px;
+    
+}
+.header_nav ul {
+	float: right;
+	display: block;
+	margin-top: 32px;
+}
+.header_nav  li {
+	float: left;
+}
+.header_nav  li a {
+	border-radius: 20px;
+	text-transform: uppercase;
+	font-family: "Avenir Medium", sans-serif;
+    color: #82868f;
+    font-size: 14px;
+    margin: 0;
+    padding: 13px 20px;
+}
+.header_nav li a:hover {
+	background-color: #0ebfdd;
+    color: #fff;
+}
+.header_nav li a:active {
+	background-color: #82868f;
+	color: #fff;
+}
+
+/*  -----Home Page------ 
+   -----Our Mission------ */
+
+.mission_container {
+	background: url("img/mountain.jpg");
+	height: 600px;
+	background-size: cover;
+}
+.our_mission {
+	width: 945px;
+	margin: 0 auto;
+}
+h1 {
+	font-family: "Avenir Heavy", sans-serif;
+	font-size: 44px;
+	margin: 0 auto;
+	text-align: center;
+    text-transform: capitalize;
+}
+.mission_container h1 {
+	padding: 395px 0 30px 0;
+	color: #fff;
+	display: block;
+}
+p {
+	font-family: "Avenir Medium", sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
+.mission_container h2:before {
+	content: url("img/star.png");
+    padding: 0 15px 0 0;
+}
+.mission_container h2:after {
+	content: url("img/star.png");
+    padding: 0 0 0 15px;
+}
+
+/* --Home Page---
+----- About-------*/
+
+.about_container {
+	height: 250px;
+}
+
+.about_container h1 {
+	color: #0ebfdd;
+	padding: 60px 0 20px 0;
+	margin: 0 auto;
+}
+.about_container p {
+	color: #45494d;
+ }
+
+/* --Home Page--
+  ---Team----*/
+
+.team_container {
+	height: 600px;
+	background-color: #0ebfdd;
+}
+.narrow_container {
+	width: 800px;
+	margin: 0 auto;
+}
+.narrow_container h1 {
+	padding: 50px 0 80px 0;
+	color: #fff;
+}
+.our_team {
+	margin: 25px 0;
+}
+.container_team_member {
+	width: 33%;
+	text-align: center;
+	display: inline-block;
+}
+.container_team_member img {
+	border-radius: 100%;
+
+}
+.team_member {
+	margin: 0 auto;
+	width: 156px;
+	height: 160px;
+	border-radius: 100%;
+    padding-bottom: 10px;
+}
+.container_team_member p {
+	color: #fff;
+	text-transform: capitalize;
+	text-align: center;
+}
+.narrow_container h2 {
+	text-decoration: uppercase;
+	color: #fff;
+	font-family: "Musseo Sans", sans-serif;
+	font-size: 18px;
+	padding: 90px 0 0 0;
+	text-align: center;
+}
+
+/* --- Home Page---
+     -----Map------*/
+.map {
+	height: 600px;
+	background: url(img/map.png) no-repeat;
+	background-size: cover;
+}
+
+
+/* ----Home Page----
+    -----Footer -----*/
+footer {
+	height: 120px;
+	background-color: #45494d;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+.footer_container {
+	border-bottom: 1px solid #5a5e62;
+	height: 70px;
+}
+
+.footer_container ul{
+	display: block;
+	float: left;
+	padding: 35px 16px 0 16px;
+	
+}
+.footer_container li {
+	float: left;
+    display: block;
+    padding: 0 15px;
+}
+.footer_container li a {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Museo Sans 500", sans-serif;
+    display: block;
+    color: #d7dee4;
+}
+.footer_container li a:hover {
+	color: #0ebfdd;
+}
+.social {
+	display: block;
+	width: 174px;
+	float: right;
+	margin: 20px 0 0 0;
+}
+.mail, .facebook, .twitter {
+	display: block;
+	float: right;
+	border: 1px solid #d4d4e0;
+	border-radius: 100%;
+	margin: 0 5px;
+	width: 38px;
+	height: 38px;
+}
+ 
+.social_icon {
+	display: block;
+	margin: 0 auto;
+	padding-top: 12px;
+} 
+
+.mail:hover, .facebook:hover, .twitter:hover {
+	background-color: #0ebfdd;
+}
+.privacy {
+	float: right;
+	display: block;
+	margin: 80px -160px 0 0;
+}
+.privacy p,
+.privacy a {
+	font-size: 12px;
+	font-family: "MusseoSans 500", sans-serif;
+	color: #73767a;
+	margin: 5px 0;
+	padding: 0;
+}
+.privacy a:hover {
+	color: #fff;
+}
+
+#demo {
+	
+	color: #fff;
+}
+
+/*-------------FAQ PAGE------------*/
+
+
+.faq {
+    width: 945px;
+    margin: 0 auto;
+    padding: 10px;
+    
+    border-top: 1px solid #5a5e62;
+}
+.faq_container h1 {
+	text-align: center;
+	color: #0ebfdd;
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: "MusseoSans 500", sans-serif;
+	margin: 20px 0;
+
+}
+.faq h1 {
+	color: #45494d;
+	text-align: left;
+    font-family: "MusseoSans 500", sans-serif;
+    font-size: 25px;
+}
+
+.faq p {
+	color: #82868f;
+	text-indent: 30px;
+	text-align: left;
+}
+
+
+
+/*---------ABOUT PAGE--------*/
+
+.container_about {
+	height: 527px;
+}
+.container_about h1 {
+	text-align: center;
+	font-size: 60px;
+	color: #0ebfdd;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.container_about p {
+	color: #82868f;
+	padding: 5px;
+	text-indent: 30px;
+	text-align: left;
+}
+
+.cols {
+	width: 50%;
+	display: inline-block;
+	padding-bottom: 125px;
+	margin: 0;
+}
+.col_1 {
+	float: left;
+}
+.col_2 {
+	float: right;
+}
+.cols  h2 {
+    color: #0ebfdd;
+    text-align: center;
+    margin: 10px;
+    padding: 0;
+    text-transform: capitalize;
+    font-family: "MusseoSans 500", sans-serif;
+    font-size: 25px;
+}
+.cols p {
+	color: #82868f;
+	padding: 0 10px 10px 10px;
+	margin: 0;
+	
+}
+
+
+
+
+/*-----------OUR MISSION---------------*/
+
+
+.container_our_mission {
+	margin: 15px 0;
+}
+
+
+.container_our_mission img {
+	width: 71%;
+	float: left;
+	display: block;
+    height: 300px;
+    
+}
+
+.container_our_mission p{
+	width: 25%;
+	float: right;
+	display: block;
+	color: #82868f;
+    text-indent: 30px;
+    text-align: left;
+}
+
+
+.col {
+	width: 33.33%;
+	display: block;
+	float: left;
+	padding: 5px 0;
+    margin: 15px 0 125px 0;
+}
+.col p {
+	text-align: left;
+	text-indent: 30px;
+    color: #82868f;
+    padding: 10px;
+}
+.col h2 {
+	margin: 0;
+	text-align: center;
+	text-transform: capitalize;
+	color: #0ebfdd;
+	font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*--------- SIGN IN-----------------*/
+
+
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.main_log_in {
+	background: url("img/mountain_2.png") no-repeat;
+    background-size: cover;
+	margin: 0 auto;
+	height: 600px;
+	padding: 0;
+	display: block;
+}
+.form_log_in {
+	width: 240px;
+    margin: 0 auto;
+    padding-top: 200px;
+    background-color: ##f0f0f2;
+}
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 240px;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#0ebfdd, #f7fdfe);
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.account-info-text {
+  padding: 20px 20px 0 20px;
+}
+.account-info-text label {
+  color: #45494d;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+  
+}
+.account-info-text input {
+  
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.account-action {
+  background: linear-gradient(#f7fdfe, #0ebfdd);
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+.account-action .btn {
+  background: #45494d;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  float: left;
+  padding: 8px 16px;
+}
+.account-action label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+
+
+/*------work with us---*/
+
+
+
+.container_work_with_us {
+	width: 800px;
+	margin: 0 auto;
+   	padding: 20px;
+}
+.container_work_with_us h1 {
+	text-align: center;
+    font: 60px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #0ebfdd;
+    text-transform: uppercase;
+    
+}
+.advantages h2 {
+	color: #45494d;
+	font: 20px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.form_work_with_us {
+	margin: 20px 0;
+	width: 30%;
+	display: block; 
+	float: left;
+	padding: 0;
+}
+.advantages {
+	display: block;
+	float: right;
+	
+	margin: 20px 0 0 0;
+	width: 60%;
+}
+.container_advantages {
+	height: 370px;
+	border-bottom: 1px solid #5a5e62;
+    border-top: 1px solid #5a5e62;
+}
+.advantages ul {
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.advantages li {
+	padding: 9px 0;
+	color: #82868f;
+	font-family: "MusseoSans 500", sans-serif;
+}
+.team_page .narrow_container h1 {
+	padding: 30px 0 30px 0;
+	
+}
+.team_page {
+	height: 600px;
+	background-color: #0ebfdd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
